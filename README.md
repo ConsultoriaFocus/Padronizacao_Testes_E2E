@@ -25,3 +25,17 @@ If you are developing a production application, we recommend updating the config
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+## Testes com Cypress:
+A ferramenta de testes de usabilidade cypress está contida no projeto, para fazer funcionar basta utilizar o comando:
+```bash
+npm run cypress:open
+```
+
+Assim o cypress vai abrir num navegador e basta acessar seus testes visualmente.
+
+### Criando testes
+É possível criar testes através da interface visual, mas caso queira fazer direto no código pra components você pode fazer no mesmo diretório que o component
+
+Já para testes E2E você pode realizar adicionando no diretório cypress/e2e

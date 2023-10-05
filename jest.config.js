@@ -24,6 +24,7 @@ const config = {
   testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
 
   // Module file extensions for importing
-  moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"]
+  moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
+  exclude: ["cypress.config.ts", "cypress", "node_modules"]
 };
 export default config
